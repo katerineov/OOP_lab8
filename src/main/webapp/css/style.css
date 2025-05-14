@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+input {
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+}
+.content {
+    display: grid;
+    width: 90%;
+    justify-items: center;
+}
+form {
+    display: grid;
+    width: 100%;
+    align-self: center;
+    justify-items: center;
+    gap: 2px;
+    font-size: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #e2e2e2;
+}
+.but {
+    width: 150px;
+    height: 30px;
+    transition:
+            all 0.3s ease;
+}
+.but:hover {
+    height: 30px;
+}
+
+.add-button {
+    background-color: #BB8800;
+    width: 250px;
+}
+
+.add-button:hover {
+    background-color: #AA6622;
+}
+
+.error {
+    color: red;
+}
